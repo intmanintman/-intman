@@ -1,0 +1,13 @@
+##本地已有项目############################
+git remote rm origin 
+git remote add origin git@github.com:intmanintman/VisualChineseDesignerCommunity.git
+
+github:建立xxx
+本地:已有xxx
+已有项目///////////////////////////////////////////////////////////////////
+git init
+git add .
+git commit -m "Visual-Chinese-Designer-Community"
+git remote rm origin 
+git remote add origin git@github.com:intmanintman/VisualChineseDesignerCommunity.git
+git push -u origin master

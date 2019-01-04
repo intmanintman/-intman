@@ -1,0 +1,634 @@
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>视觉中国设计师社区</title>
+		<link rel="shortcut icon" href="img/favicons.ico">
+		<link rel="stylesheet" href="css/discovery.css" />
+
+	<style>
+		*{
+			margin: 0px;
+			padding: 0px;
+			
+		}
+		.daohang ul
+		{
+		list-style: none;
+		margin: 0 auto;
+		line-height: 50px;
+		line-height: 71px;
+			
+		/*text-align: center;*/	
+		}
+		.daohang ul li
+		{
+			float:left;
+			font-size: 16px;
+			width: 60px;
+		}
+		.daohang ul li ul li
+		{
+			float: none;
+			width: 80px;
+			
+		}
+		.daohang ul li a
+		{
+			/*display: block;*/
+			text-decoration:none
+		}
+		/*.daohang ul li a:hover
+		{
+			text-decoration:underline
+		}*/
+		
+		.daohang ul li ul
+		{
+			display: none;
+			position: absolute;
+			z-index: 2;
+			text-align: left;
+					
+		}
+		.daohang ul li ul a:hover
+		{
+			color:#F0F0F0;
+		}
+		.daohang ul li:hover ul
+		{
+			display: block;
+		}
+		
+		
+		
+		.denglu
+			{
+				background-position:-101px -10px ;
+				width: 70px;
+				height: 27px;
+				background-image: url(img/denglu.png);
+				float: left;
+				
+			}
+		.denglu:hover
+			{
+				background-position:-10px -10px ;
+				
+			}
+		.zhuce
+			{
+				background-position:-10px -10px ;
+				width: 70px;
+				height: 27px;
+				background-image: url(img/zhece.png);
+				float: left;
+			}	
+		.zhuce:hover
+			{
+				background-position:-102px -10px ;
+			}
+		
+		.info
+		{
+			float: right;
+			background-repeat: no-repeat;
+			right:50px;
+			position:absolute;
+			margin-top: 22px;
+			margin-right: 9px;
+			
+			
+		}
+		.top
+		{
+			width: 100%;
+			height:71px;
+			background-color: #FAFAFA;
+			line-height: 71px;
+			
+		}
+
+	</style>
+</script>
+	</head>
+	<body>
+		<div class="scroll_to_top display" onclick="returnTop();">
+			<span class="scroll-img">
+				<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+					<defs><style>.cls-1{fill:#a1a1a1;}</style></defs>
+					<title>未标题-1</title>
+					<path class="cls-1" d="M20,0L0,10.2829V40H40V10.2829ZM32.43921,25.69183a1.06461,1.06461,0,0,1-.63086-0.21008L20.03021,16.72247,8.25214,25.48175a1.06473,1.06473,0,0,1-1.52063-.13416,1.1081,1.1081,0,0,1,.25238-1.64111l12.41229-9.23407a1.06238,1.06238,0,0,1,1.2749,0L33.0766,23.70648a1.108,1.108,0,0,1,.44513.8877A1.09012,1.09012,0,0,1,32.43921,25.69183Z"></path>
+				</svg>
+			</span></div>
+<!---->
+<!---->
+		<div id="site">
+			<div id="content">
+<!--11111111111111111111111111111111111111111111111111111111111111111111111-->
+				<!--<div class="top"><a href="#"></a>			
+				</div>-->
+		<div class="top">
+		<div class="daohang">
+			<ul>
+				<li><a href="#"><img src="img/top1.png"/></a></li>
+				<li><a href="#">发现     </a></li>									
+				<li><a href="#">设计师</a></li>
+				<li><a href="#">活动     </a>
+					<ul>						
+						<li><a href="#">大赛 </a></li>
+						<li><a href="#">线上展览</a></li>
+					</ul>
+				</li>
+				<li><a href="#">更多  </a>
+					<ul>
+						<li><a href="#">签约</a></li>
+						<li><a href="#">Abode CC</a></li>
+				</li>
+					</ul>
+			</ul>
+		</div>
+		
+		
+		
+		
+		
+		<div class="info">
+			<a href="#"><div class="denglu"></div></a>
+			<a href="#"><div class="zhuce"></div></a>
+		</div>
+		</div>
+				
+
+<!--22222222222222222222222222222222222222222222222222222222222222222222222-->	
+				<div class="middle">
+					<div class="middle_mid1">
+						<div class="middle_mid2">
+							<div class="three_tab">
+								<div class="three_ul">
+									<a href="javascript:sort();" class="three_ul_font">
+										<img src="img/assort.svg" style="width: 11px;margin-right: 7px;"/>
+										分类
+									</a>
+									<a href="javascript:edit();" class="three_ul_font">
+										编辑推荐
+										<img src="img/down-arrow.svg" class="down-arrow" />
+									</a>
+									<a href="javascript:copyright();" class="three_ul_font">
+										版权
+										<img src="img/down-arrow.svg" class="down-arrow" />
+									</a>							
+								</div>
+							</div>
+							<div id="three_ul_font_sort" class="index_sort">
+								<div class="arrow-trangle">
+									<img src="img/arrow-triangle.svg" style="width: 18px; position: absolute; top: -1px;">
+								</div>
+								<div class="index-assort-main">
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">平面</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">Logo</a>
+												<a href="#" class="tag fontw40-13">VI/CI</a>
+												<a href="#" class="tag fontw40-13">海报</a>
+												<a href="#" class="tag fontw40-13">字体</a>
+												<a href="#" class="tag fontw40-13">包装</a>
+												<a href="#" class="tag fontw40-13">DM/册页/广告</a>
+												<a href="#" class="tag fontw40-13">书装/画册</a>
+												<br /><br /><a href="#" class="tag fontw40-13">信息图</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">插画</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">绘本</a>
+												<a href="#" class="tag fontw40-13">商业插画</a>
+												<a href="#" class="tag fontw40-13">儿童插画</a>
+												<a href="#" class="tag fontw40-13">像素画</a>
+												<a href="#" class="tag fontw40-13">涂鸦</a>
+												<a href="#" class="tag fontw40-13">其他绘画</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">动漫</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">吉祥物</a>
+												<a href="#" class="tag fontw40-13">表情</a>
+												<a href="#" class="tag fontw40-13">漫画</a>
+												<a href="#" class="tag fontw40-13">二维动画</a>
+												<a href="#" class="tag fontw40-13">三维动画</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">产品设计</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">生活用品</a>
+												<a href="#" class="tag fontw40-13">家具</a>
+												<a href="#" class="tag fontw40-13">电子产品</a>
+												<a href="#" class="tag fontw40-13">交通工具</a>
+												<a href="#" class="tag fontw40-13">工业用品</a>
+												<a href="#" class="tag fontw40-13">礼品/纪念品</a>
+												<a href="#" class="tag fontw40-13">服饰</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">UI设计</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">Icon图标</a>
+												<a href="#" class="tag fontw40-13">移动端</a>
+												<a href="#" class="tag fontw40-13">软件界面</a>
+												<a href="#" class="tag fontw40-13">网页设计</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">CG</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">原画</a>
+												<a href="#" class="tag fontw40-13">概念设定</a>
+												<a href="#" class="tag fontw40-13">建模</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">空间/建筑设计</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">室内设计</a>
+												<a href="#" class="tag fontw40-13">建筑设计</a>
+												<a href="#" class="tag fontw40-13">环境艺术</a>
+												<a href="#" class="tag fontw40-13">橱窗展示</a>
+												<a href="#" class="tag fontw40-13">导视设计</a>
+											</div>
+										</div>
+									</div>
+									<div class="assort-one assort-last">
+										<div class="assort-list">
+											<h2 class="fontw40-18" style="cursor: pointer;">资讯</h2>
+											<div class="assort-list-main">
+												<a href="#" class="tag fontw40-13">业界</a>
+												<a href="#" class="tag fontw40-13">活动</a>
+												<a href="#" class="tag fontw40-13">观点</a>
+												<a href="#" class="tag fontw40-13">专访</a>
+												<a href="#" class="tag fontw40-13">专题</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="three_ul_font_edit" class="ul_down">
+								<img src="img/arrow-triangle.svg" class="arrow">
+								<ul class="select">
+									<li>
+										<a href="#"><span class="fontw40-15">编辑推荐</span></a>
+									</li>
+									<li>
+										<a href="#"><span class="fontw40-15">最新</span></a>
+									</li>
+									<li>
+										<a href="#"><span class="fontw40-15">最热</span></a>
+									</li>
+								</ul>
+							</div>
+							<div id="three_ul_font_copyright" class="ul_down left_106">
+								<img src="img/arrow-triangle.svg" class="arrow">
+								<ul class="select">
+									<li>
+										<a href="#"><span class="fontw40-15">全部</span></a>
+									</li>
+									<li>
+										<a href="#"><span class="fontw40-15">原创</span></a>
+									</li>
+									<li>
+										<a href="#"><span class="fontw40-15">装载</span></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+<!--3333333333333333333333333333333333333333333333333333333333333333333333333333333333-->				
+				<div class="content_detail">
+					<div class="pics">
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols1111111111-->
+							<div class="item">
+								<a href="#">
+									<div class="pic">
+										<img class="pic_white" width="100%" src="img/whitebt.jpg" />
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols1111111111111111111111111111-->
+						
+						<div class="cols"><!--cols2222222222222-->
+							<div class="item">
+								<div class="lyby_svg" style="right: 15px;top: 15px;">
+									<div title="参赛获奖勋章" class="image" style="background-image: url(img/badge-good-award.svg); width: 28px; height: 28px;"></div>
+									<div class="lyby_tip" style="width: 230px; top: 38px; left: -105px;">
+										<span class="tipBody">
+											<div>优秀获奖作品：第六届中国大学生设计大赛——银奖-平面设计</div>
+										</span>
+										<div class="bottoms"></div>
+									</div>
+								</div>
+								<a href="#">
+									<div class="pic">
+										<!--<img width="100%" src="img/whitebt.jpg" />-->
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols222222222222222222222-->
+				
+						
+						<div class="cols"><!--cols2222222222222-->
+							<div class="item">
+								<div class="lyby_svg" style="right: 15px;top: 15px;">
+									<div title="参赛获奖勋章" class="image" style="background-image: url(img/badge-good-award.svg); width: 28px; height: 28px;"></div>
+									<div class="lyby_tip" style="width: 230px; top: 38px; left: -105px;">
+										<span class="tipBody">
+											<div>优秀获奖作品：第六届中国大学生设计大赛——银奖-平面设计</div>
+										</span>
+										<div class="bottoms"></div>
+									</div>
+								</div>
+								<a href="#">
+									<div class="pic">
+										<!--<img width="100%" src="img/whitebt.jpg" />-->
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols222222222222222222222-->
+				
+						
+						<div class="cols"><!--cols2222222222222-->
+							<div class="item">
+								<div class="lyby_svg" style="right: 15px;top: 15px;">
+									<div title="参赛获奖勋章" class="image" style="background-image: url(img/badge-good-award.svg); width: 28px; height: 28px;"></div>
+									<div class="lyby_tip" style="width: 230px; top: 38px; left: -105px;">
+										<span class="tipBody">
+											<div>优秀获奖作品：第六届中国大学生设计大赛——银奖-平面设计</div>
+										</span>
+										<div class="bottoms"></div>
+									</div>
+								</div>
+								<a href="#">
+									<div class="pic">
+										<!--<img width="100%" src="img/whitebt.jpg" />-->
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols222222222222222222222-->
+				
+						
+						<div class="cols"><!--cols2222222222222-->
+							<div class="item">
+								<div class="lyby_svg" style="right: 15px;top: 15px;">
+									<div title="参赛获奖勋章" class="image" style="background-image: url(img/badge-good-award.svg); width: 28px; height: 28px;"></div>
+									<div class="lyby_tip" style="width: 230px; top: 38px; left: -105px;">
+										<span class="tipBody">
+											<div>优秀获奖作品：第六届中国大学生设计大赛——银奖-平面设计</div>
+										</span>
+										<div class="bottoms"></div>
+									</div>
+								</div>
+								<a href="#">
+									<div class="pic">
+										<!--<img width="100%" src="img/whitebt.jpg" />-->
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols222222222222222222222-->
+				
+						
+						<div class="cols"><!--cols2222222222222-->
+							<div class="item">
+								<div class="lyby_svg" style="right: 15px;top: 15px;">
+									<div title="参赛获奖勋章" class="image" style="background-image: url(img/badge-good-award.svg); width: 28px; height: 28px;"></div>
+									<div class="lyby_tip" style="width: 230px; top: 38px; left: -105px;">
+										<span class="tipBody">
+											<div>优秀获奖作品：第六届中国大学生设计大赛——银奖-平面设计</div>
+										</span>
+										<div class="bottoms"></div>
+									</div>
+								</div>
+								<a href="#">
+									<div class="pic">
+										<!--<img width="100%" src="img/whitebt.jpg" />-->
+										<img class="lazy" width="100%" src="img/1.jpg" />					
+									</div>
+								</a>
+							</div>
+							<div class="title">
+								<a href="#">
+									<div class="pic">
+										<img class="lazy" width="100%" src="img/user.jpg" />					
+									</div>
+								</a>
+								<a class="title_font1 hover_pink" href="#">游戏改变者 精英论坛即将开始</a>
+								<a class="title_font2 hover_pink" href="#">视觉ME</a>			
+							</div>							
+						</div><!--cols222222222222222222222-->
+				
+						
+						
+					</div>  <!--pics-->
+<!--444444444444444444444444444444444444444444444444444444444444444444444444444-->					
+				</div>
+				<div class="more">
+					<div class="span_12_of_12">
+						<div class="loading">
+							<div class="load_more">
+								<img src="img/loading.gif" width="40" height="40" />
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>
+<script type="text/javascript" src="js/discovery.js" ></script>
